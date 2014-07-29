@@ -1,3 +1,4 @@
+default['updatedb']['locate_pkg'] = 'locate'
 default['updatedb']['prune_bind_mounts'] = 'yes'
 default['updatedb']['prunenames'] = '.git .bzr .hg .svn'
 default['updatedb']['prunepaths'] = '/tmp /var/spool /media /home/.ecryptfs'
