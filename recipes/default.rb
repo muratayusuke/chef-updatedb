@@ -1,4 +1,5 @@
-pkgs = %w{cron locate}
+pkgs = %w{cron}
+pkgs << node['updatedb']['locate_pkg']
 pkgs.each do |pkg|
   package pkg
 end
